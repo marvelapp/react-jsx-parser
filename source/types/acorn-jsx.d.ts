@@ -1,5 +1,5 @@
 /* eslint-disable no-use-before-define */
-declare module 'acorn-jsx' {
+export namespace AcornJSX {
 	export interface BaseExpression {
 		start: number;
 	}

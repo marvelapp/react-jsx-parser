@@ -1,6 +1,6 @@
 /* global JSX */
 import * as Acorn from 'acorn'
-import * as AcornJSX from 'acorn-jsx'
+import * as AcornJSX from '../acorn-jsx'
 import React, { Fragment, ComponentType, ExoticComponent } from 'react'
 import ATTRIBUTES from '../constants/attributeNames'
 import { canHaveChildren, canHaveWhitespace } from '../constants/specialTags'
